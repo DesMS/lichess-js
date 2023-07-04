@@ -1,16 +1,25 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/node": "^18.0.6",
-    "node-fetch": "^3.2.6"
-  }
+	"name": "lichess-js",
+	"version": "1.0.0",
+	"description": "A NodeJS implementation of the lichess API",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "DesMS",
+	"license": "PUBLIC DOMAIN",
+	"dependencies": {
+		"@types/node": "^18.0.6",
+		"node-fetch": "^3.2.6"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DesMS/lichess-js.git"
+	},
+	"bugs": {
+		"url": "https://github.com/DesMS/lichess-js/issues"
+	},
+	"homepage": "https://github.com/DesMS/lichess-js#readme"
 }
